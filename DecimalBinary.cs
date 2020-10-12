@@ -9,8 +9,8 @@ namespace MyFirstproject
             
             Console.WriteLine("Please enter a base-10 number: ");
             string userInput = Console.ReadLine();
-            int base10Number = Convert.ToInt32(userInput);
-            string binaryString = ConvertDecimalToBinary(base10Number);
+            int base10number = Convert.ToInt32(userInput);
+            string binaryString = ConvertDecimalToBinary(base10number);
             Console.WriteLine("The result is: " + binaryString);
         }
 
