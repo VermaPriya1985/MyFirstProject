@@ -6,7 +6,7 @@ namespace MyFirstproject
     {
        public static void Run()
         {
-            // HELLO
+            
             Console.WriteLine("Please enter a base-10 number: ");
             string userInput = Console.ReadLine();
             int base10Number = Convert.ToInt32(userInput);
