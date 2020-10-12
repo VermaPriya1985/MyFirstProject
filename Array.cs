@@ -31,6 +31,31 @@ namespace MyFirstproject
          Console.WriteLine(finalAverage);
          
          
+           // int[] arr = new int[4];
+                   // FILLING ARRAY
+           /* for (int i=0;i<arr.Length;i++)
+dotnet            {
+                Console.WriteLine("Enter nmumber");
+                string userinput = Console.ReadLine();
+                int nextint = Convert.ToInt32(userinput);
+                arr[i] = nextint;
+
+           } */
+
+           // sum
+           /* int sum=0;
+           for (int i=0;i<arr.Length;i++)
+            {
+                sum +=arr[i];
+            } */
+
+            // display values
+            /* for(int i=0;i<arr.Length;i++)
+            {
+                Console.WriteLine(arr[i]);
+            } */
+
+         
     }
 
    }
