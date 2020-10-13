@@ -7,7 +7,10 @@ namespace MyFirstproject
        static void Run()
         {
             // Dynamic Size in List
-           List<int> mylist = new List<int>(); 
+
+             List<int> mylist =  GatherInput(); 
+             
+/*            List<int> mylist = new List<int>(); 
             // Fill List    
             while(true)
             {
@@ -23,7 +26,7 @@ namespace MyFirstproject
                 mylist.Add(nextint);
 
             }        
-           
+   */         
            /* for(int i=0;i<4;i++)
            {
                 Console.WriteLine("Enter nmumber");
@@ -53,6 +56,22 @@ namespace MyFirstproject
         }
 
     
+ static List<int> GatherInput() {
+            List<int> theListToReturn = new List<int>();
+
+            while (true) {
+                Console.WriteLine("Enter the next number. Or enter 'quit' when you're done.");
+                string userInput = Console.ReadLine();
+
+                if (userInput == "quit") {
+                    break;
+                }
+
+                int nextInt = Convert.ToInt32(userInput);
+                theListToReturn.Add(nextInt);
+            }
+            return theListToReturn;
+        }
 
     static void PrintList(List<int> mylist)
     {
