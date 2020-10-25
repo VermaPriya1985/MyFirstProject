@@ -8,7 +8,7 @@ namespace MyFirstproject
         {
             string newstr = "";
             Console.WriteLine("Enter String to remove vowels");
-            string str = Console.ReadLine();
+            string str = Console.ReadLine(); 
             for(int i=0;i<str.Length;i++)
             {
                 if(str[i]!='a' && str[i]!='e' && str[i]!='i' && str[i]!='o' && str[i]!='u')
